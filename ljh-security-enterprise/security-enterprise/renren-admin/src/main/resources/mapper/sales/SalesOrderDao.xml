@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sales.dao.order.SalesOrderDao">
+
+    <resultMap type="io.renren.modules.sales.entity.order.SalesOrderEntity" id="salesOrderMap">
+        <result property="id" column="id"/>
+        <result property="salesOrderNum" column="sales_order_num"/>
+        <result property="customerPurchaseNum" column="customer_purchase_num"/>
+        <result property="customerId" column="customer_id"/>
+        <result property="currencyId" column="currency_id"/>
+        <result property="remark" column="remark"/>
+        <result property="attachment" column="attachment"/>
+        <result property="instanceId" column="instance_id"/>
+        <result property="state" column="state"/>
+        <result property="creator" column="creator"/>
+        <result property="createDate" column="create_date"/>
+        <result property="updater" column="updater"/>
+        <result property="updateDate" column="update_date"/>
+    </resultMap>
+
+    <update id="updateInstanceId">
+        update sales_order set instance_id = #{instanceId} where id = #{id}
+    </update>
+
+</mapper>

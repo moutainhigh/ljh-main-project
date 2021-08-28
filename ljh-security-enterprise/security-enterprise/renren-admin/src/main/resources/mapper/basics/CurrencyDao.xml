@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.basics.dao.currency.CurrencyDao">
+
+    <resultMap type="io.renren.modules.basics.entity.currency.CurrencyEntity" id="currencyMap">
+        <result property="id" column="id"/>
+        <result property="chnName" column="chn_name"/>
+        <result property="enName" column="en_name"/>
+    </resultMap>
+
+</mapper>

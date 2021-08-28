@@ -1,0 +1,29 @@
+一、安装
+# 安装依赖
+npm install
+# 执行命令：
+创建目录vendor
+npm rebuild node-sass --save-dev
+# 启动服务
+npm run dev
+
+二、打包
+# 构建生产环境(默认) npm run build
+# 构建测试环境
+npm run build --qa
+# 构建验收环境
+npm run build --uat
+# 构建生产环境
+npm run build --prod
+
+三、如果报Sass版本错误
+ Node Sass does not yet support your current environment: Windows 64-bit然如何解决,cnpm此问题解决方法
+
+  这里直接说了node sass不支持当前环境，所以可以直接删掉原来不支持本机的node sass，再重新安装就行了
+
+  删除：
+  npm uninstall --save node-sass
+
+  安装：
+  npm install --save node-sass
+

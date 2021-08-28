@@ -1,0 +1,9 @@
+一、后端启动
+    启动AdminApplication文件
+
+二、前端启动
+    npm install
+    npm run serve
+
+三、访问地址
+    http://localhost:8001/ admin/admin

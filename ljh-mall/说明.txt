@@ -1,0 +1,13 @@
+一、启动后端
+    先启动mysql和redis
+    运行MallAdminApplication.java
+    http://localhost:8080/
+
+二、启动前端
+    npm install
+    npm run dev
+    http://localhost:8090
+
+三、访问控制
+    http://localhost:8090
+    帐号/密码：admin/macro123

@@ -1,0 +1,6 @@
+一、导入数据库tmalldemodb.sql.
+    导入后因为表没有大写，而mappler.xml中的表是大小写的，所以修改了mappler.xml文件。
+
+二、运行TmallSpringBootApplication即可运行商城
+    前台：http://localhost:8080/tmall a120/liu123456
+    后台：http://localhost:8080/tmall/admin 1209577113/xq

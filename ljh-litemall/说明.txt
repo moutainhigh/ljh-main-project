@@ -1,0 +1,25 @@
+一、启动后台服务
+    在工程litemall-all中运行Application.java。
+    访问地址：http://localhost:8080
+
+二、运行管理后台前端界面
+    litemall-admin
+    npm install
+    npm run dev
+    访问地址：http://localhost:9527/#/login?redirect=%2Fdashboard
+    admin123/admin123
+
+三、启动轻商城前端
+    litemall-vue
+    npm install
+    npm run dev
+    访问地址：http://localhost:6255
+    user123/user123
+
+四、启动小商城前端
+    这里存在两套小商场前端litemall-wx和renard-wx，开发者可以分别导入和测试：
+
+    1. 微信开发工具导入litemall-wx项目;
+    2. 项目配置，启用“不校验合法域名、web-view（业务域名）、TLS 版本以及 HTTPS 证书”
+    3. 点击“编译”，即可在微信开发工具预览效果；
+    4. 也可以点击“预览”，然后手机扫描登录（但是手机需开启调试功能）。
